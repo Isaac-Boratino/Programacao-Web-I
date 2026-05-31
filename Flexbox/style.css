@@ -309,9 +309,9 @@ ul{
     line-height: 1.45;
     color: var(--cor-texto);
     margin-bottom: 0.55rem;
-    transform: all var(--transicao);
+    transition: all var(--transicao);
 }
-.card-artigo:hover .card-corpo h2:hover{
+.card-artigo:hover .card-corpo h2{
     color:var(--cor-acento)
 }
 
