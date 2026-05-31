@@ -311,7 +311,7 @@ ul{
     margin-bottom: 0.55rem;
     transform: all var(--transicao);
 }
-.card-artigo:hover .card-corpo h2{
+.card-artigo:hover .card-corpo h2:hover{
     color:var(--cor-acento)
 }
 
