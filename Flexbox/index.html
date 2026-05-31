@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBlog - Progamação Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--#topo - barra de  navegação-->
+    <div id="topo">
+    <div class="logo">Tech <span> Blog</span></div>
+    
+    <div id="navegacao">
+        <a href="#">Home</a>
+        <a href="#">CSS</a>
+        <a href="#">JavaScript</a>
+        <a href="#" class="btn-assinar">Assinar</a>
+    </div>
+</div>
+<!-- #hero - seção de destaque-->
+    <div id="hero">
+        <div class="hero-texto">
+                <div class="categoria">Artigo em destaque</div>
+                    <h1>Como o CSS transforma um HTML simples em algo incrível</h1>
+                        <p class="resumo">
+                Entenda como as propriedades de estilo funcionam na prática - de cores e fontes até layouts
+                complexos com div, id e class
+        </p>
+            <a href="#"><div class="btn-ler">Ler artigo →</div></a>
+        </div>
+
+
+        <div class="hero-imagem">CSS</div>
+    </div>
+
+<!-- #wrapper-principal - área de conteúdo -->
+    <div id="wrapper-principal">
+        <!--inicio #coluna artigos-->
+        <div id="coluna-artigos">
+            <div class="secao-titulo"><span>Últimos</span> artigos</div>
+
+                <div class="card-artigo html">
+                    <div class="card-imagem">🏗️</div>
+                    <div class="card-corpo">
+                        <div class=" card-tag">HTML</div>
+                        <h2>Estruturando páginas com div, id  e class do jeito certo</h2>
+                        <p class="card-resumo">
+                            Aprenda quando usar cada um e como  eles trabalham junto para criar layouts
+                            organizados, legiveis e facies de manter
+                        </p>
+                        <div class="card-meta">
+                            <div class="autor">
+                                <div class="avatar laranja">JR</div>
+                                Joaquim Rocha
+                            </div>
+                            <span>28 abr 2026 . 6 min</span>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="card-artigo css">
+                <div class="card-imagem">🎨</div>
+                <div class="card-corpo">
+                    <div class=" card-tag">CSS</div>
+                    <h2>Seletores CSS : de basicos a avançados em exemplos reais</h2>
+                    <p class="card-resumo">
+                        Do seletor de tag ao descendente, passando por pseudo-classes - guia visual e prático
+                        para dominiar a especificidade do CSS
+                    </p>
+                    <div class="card-meta">
+                        <div class="autor">
+                            <div class="avatar azul">JS</div>
+                            Judith Silva
+                        </div>
+                        <span>20 abr 2026 . 9 min</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-artigo js">
+                <div class="card-imagem">⚙️</div>
+                <div class="card-corpo">
+                    <div class=" card-tag">JavaScript</div>
+                    <h2>Manipulado o DOM: como JS enxerga seu HTML</h2>
+                    <p class="card-resumo">
+                        O Document Object Model é a ponte entre seu código e a página.
+                        Veja como acessar elementos pelo id, class e tag diretamente
+                    </p>
+                    <div class="card-meta">
+                        <div class="autor">
+                            <div class="avatar verde">JC</div>
+                            João Carrara
+                        </div>
+                        <span>3 mar 2026 . 7min</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-artigo html avançado">
+                <div class="card-imagem">🚛</div>
+                <div class="card-corpo">
+                    <div class=" card-tag">Html - Avançado</div>
+                    <h2>Tags semânticas: quando parar de usar &lt;div&gt; para tudo</h2>
+                    <p class="card-resumo">
+                        header, nav, main, section, article, e footer - entenda o papel de cada tag semântica e
+                        como tornam seu código mais profissional.
+                    </p>
+                    <div class="card-meta">
+                        <div class="autor">
+                            <div class="avatar vermelho">PA</div>
+                            Pricila Albuquerque
+                        </div>
+                        <span>18 fev 2026 . 8 min</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- fim #coluna-artigos -->
+        <!-- inicio #sidebar-->
+        <div id="sidebar">
+
+            <!--widget 1: widget + newsletter-->
+            <div class="wideget newsletter">
+                <div class="wideget-titulo">📫 Newsletter</div>
+                <div class="widget-corpo">
+                    <p>Receba os melhores artigos sobre desenvolvimento web toda semana.</p>
+                    <input type="email" name="campo email"  placeholder="seu@email.com">
+                    <button class="btn-newsletter">Quero Receber</button>
+                </div>     
+            </div>
+            
+            <!--widget 2: widget-->
+            <div class="widget">
+                <div class="widget-titulo">📁 Categorias</div>
+                <div class="widget-corpo">
+                    <ul class="lista-categorias">
+                        <li><a href="#">HTML Básico <span class="contagem">12</span></a></li>
+                        <li><a href="#">CSS Essencial <span class="contagem">18</span></a></li>
+                        <li><a href="#">JavaScript <span class="contagem">9</span></a></li>
+                        <li><a href="#">Projetos Práticos <span class="contagem">7</span></a></li>
+                        <li><a href="#">Dicas e Truquess <span class="contagem">15</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--widget 3:widget-->
+            <div class="widget">
+                <div class="widget-titulo">🏷️ Tags populares</div>
+                <div class="widget-corpo">
+                    <div class="nuvem-tags">
+                        <span class="tag-item">#html</span>
+                        <span class="tag-item">#css</span>
+                        <span class="tag-item">#div</span>
+                        <span class="tag-item">#id</span>
+                        <span class="tag-item">#class</span>
+                        <span class="tag-item">#layout</span>
+                        <span class="tag-item">#seletores</span>
+                        <span class="tag-item">#flexbox</span>
+                        <span class="tag-item">#frontend</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- widget 4:widget + destaque-lateral-->
+            <div class="widget destaque-lateral">
+                <div class="widget-titulo">⭐ Mais lido</div>
+                <div class="widget-corpo">
+                    <div class="post-destaque">
+                        <div class="post-thumb">📌</div>
+                            <h3>Guia completo do Flexbox para inciantes</h3>
+                            <p>Do display: flex do align-items - tudo o que você precisa saber</p>
+                        <a href="" class="btn-ver">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <!-- fim #sidebar-->
+        </div>
+    <!-- fim #wrapper-principal -->
+    </div>
+</body>
+</html>
